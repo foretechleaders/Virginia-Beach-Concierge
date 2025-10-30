@@ -10,7 +10,7 @@ export default function MembershipTable() {
       <table className="min-w-full border rounded-xl overflow-hidden">
         <thead className="bg-vbTeal text-white">
           <tr>
-            <th className="text-left p-3">Plan</</th>
+            <th className="text-left p-3">Plan</th>
             <th className="text-left p-3">Description</th>
             <th className="text-left p-3">Price</th>
             <th className="text-left p-3">Perks</th>
