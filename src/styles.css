@@ -4,10 +4,9 @@
 @tailwind utilities;
 
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 }
 
-/* Focus ring for accessibility */
 .focus-ring:focus {
   outline: 3px solid #3ec5ff;
   outline-offset: 2px;

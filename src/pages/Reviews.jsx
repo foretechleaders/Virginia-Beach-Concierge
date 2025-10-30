@@ -12,7 +12,7 @@ export default function Reviews() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-8">
       <div>
-        <h1 className="text-2xl font-bold text-vbBlue">User Reviews</h1>
+        <h1 className="text-2xl font-bold text-vbTeal">User Reviews</h1>
         <div className="mt-4 space-y-3">
           {initial.map((r,i)=>(<ReviewCard key={i} {...r} />))}
         </div>

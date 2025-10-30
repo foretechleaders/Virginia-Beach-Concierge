@@ -2,7 +2,7 @@
 export default function Contact() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
-      <h1 className="text-2xl font-bold text-vbBlue">Contact Us</h1>
+      <h1 className="text-2xl font-bold text-vbTeal">Contact Us</h1>
       <p className="mt-2 text-slate-700">Have a question or need concierge help? Send us a message.</p>
 
       <form name="contact" method="POST" data-netlify="true" className="grid gap-3 mt-6 border rounded-xl p-6 bg-white">
@@ -19,7 +19,7 @@ export default function Contact() {
           <span className="text-sm">Message</span>
           <textarea className="border rounded px-3 py-2" rows="5" name="message" required></textarea>
         </label>
-        <button className="bg-vbBlue text-white rounded px-4 py-2 w-fit">Send</button>
+        <button className="bg-vbTeal text-white rounded px-4 py-2 w-fit">Send</button>
       </form>
     </div>
   )

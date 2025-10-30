@@ -1,6 +1,5 @@
 
 export default function ReviewCard({ username, rating, comment }) {
-  const stars = '★★★★★☆☆☆☆☆'.slice(5 - Math.min(5, Number(rating)), 10)
   return (
     <div className="border rounded-xl p-4 bg-white shadow-sm">
       <div className="flex items-center justify-between">

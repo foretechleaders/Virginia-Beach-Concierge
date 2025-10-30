@@ -20,7 +20,7 @@ export default function Hero() {
             Coastal Virginia Beach is teeming with attractions and activities for everyone! Start your adventure here.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <Link to="/attractions" className="bg-vbSky text-slate-900 rounded-full px-5 py-3 font-semibold">Explore Attractions</Link>
+            <Link to="/attractions" className="bg-vbOrange text-slate-900 rounded-full px-5 py-3 font-semibold">Explore Attractions</Link>
             <Link to="/events" className="bg-white text-slate-900 rounded-full px-5 py-3 font-semibold">See What's Happening</Link>
           </div>
         </div>

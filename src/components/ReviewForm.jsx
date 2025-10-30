@@ -15,7 +15,7 @@ export default function ReviewForm() {
         <span className="text-sm">Comments</span>
         <textarea name="comment" rows="4" required className="border rounded px-3 py-2"></textarea>
       </label>
-      <button className="bg-vbBlue text-white rounded px-4 py-2 w-fit">Submit Review</button>
+      <button className="bg-vbTeal text-white rounded px-4 py-2 w-fit">Submit Review</button>
     </form>
   )
 }

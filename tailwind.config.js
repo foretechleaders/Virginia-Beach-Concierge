@@ -5,10 +5,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        vbBlue: "#0f4c81",
-        vbSand: "#f5e6c8",
-        vbSea: "#0fb9b1",
-        vbSky: "#3ec5ff"
+        vbTeal: "#1E7C83",
+        vbOrange: "#F5A623",
+        vbSand: "#F4E4C1"
       }
     },
   },

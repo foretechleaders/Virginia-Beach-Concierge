@@ -9,17 +9,17 @@ export default function Navbar() {
     <header className="bg-white/80 backdrop-blur sticky top-0 z-50 border-b border-slate-200">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/vbcon-logo.svg" alt="Virginia Beach Concierge logo" className="w-10 h-10" />
-          <span className="font-bold text-lg text-vbBlue">Virginia Beach Concierge</span>
+          <img src="/logo.png" alt="Virginia Beach Concierge logo" className="w-10 h-10" />
+          <span className="font-bold text-lg text-vbTeal">Virginia Beach Concierge</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <NavLink to="/" className="hover:text-vbBlue" end>Home</NavLink>
-          <NavLink to="/services" className="hover:text-vbBlue">Services</NavLink>
-          <NavLink to="/attractions" className="hover:text-vbBlue">Attractions</NavLink>
-          <NavLink to="/events" className="hover:text-vbBlue">Events</NavLink>
-          <NavLink to="/reviews" className="hover:text-vbBlue">Reviews</NavLink>
-          <NavLink to="/about" className="hover:text-vbBlue">About</NavLink>
-          <NavLink to="/contact" className="hover:text-vbBlue">Contact</NavLink>
+          <NavLink to="/" className="hover:text-vbOrange" end>Home</NavLink>
+          <NavLink to="/services" className="hover:text-vbOrange">Services</NavLink>
+          <NavLink to="/attractions" className="hover:text-vbOrange">Attractions</NavLink>
+          <NavLink to="/events" className="hover:text-vbOrange">Events</NavLink>
+          <NavLink to="/reviews" className="hover:text-vbOrange">Reviews</NavLink>
+          <NavLink to="/about" className="hover:text-vbOrange">About</NavLink>
+          <NavLink to="/contact" className="hover:text-vbOrange">Contact</NavLink>
         </nav>
         <div className="flex items-center gap-3">
           <div className="relative">

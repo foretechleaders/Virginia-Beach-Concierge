@@ -16,7 +16,7 @@ export default function Attractions() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
-      <h1 className="text-2xl font-bold text-vbBlue">Attractions & Things To Do</h1>
+      <h1 className="text-2xl font-bold text-vbTeal">Attractions & Things To Do</h1>
       <input
         value={query}
         onChange={e=>setQuery(e.target.value)}
@@ -38,7 +38,7 @@ export default function Attractions() {
                       <p className="text-sm text-slate-600">{item.type}</p>
                     </div>
                     <button
-                      className={"px-3 py-1 rounded-full border " + (isFavorite(item.name) ? "bg-vbSky" : "bg-white")}
+                      className={"px-3 py-1 rounded-full border " + (isFavorite(item.name) ? "bg-vbOrange/30" : "bg-white")}
                       onClick={()=>{ toggleFavorite(item.name); setFavFlag(x=>x+1) }}
                       aria-pressed={isFavorite(item.name)}
                       aria-label="Save to favorites"
