@@ -4,7 +4,7 @@ export default function Footer() {
     <footer className="border-t border-slate-200 py-8">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 text-sm">
         <div>
-          <h3 className="font-semibold text-vbTeal">Virginia Beach Concierge</h3>
+          <h3 className="font-semibold">Virginia Beach Concierge</h3>
           <p className="text-slate-600 mt-2">Connecting locals, vacationers, and world travelers to Virginia Beach.</p>
         </div>
         <div>

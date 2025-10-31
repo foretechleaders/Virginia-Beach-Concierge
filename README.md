@@ -1,28 +1,13 @@
 
-# Virginia Beach Concierge (v2)
+# Virginia Beach Concierge (v2.2)
 
-React (Vite) + Tailwind with:
-- Global sand dune background
-- Inline Google Maps embed on Home
-- Eventbrite events fetch on /events
-- Netlify Forms for contact, reviews, newsletter
-- Favorites using localStorage
-- New branding/colors
+- Transparent navbar over homepage hero
+- Homepage hero uses /public/home-bg.jpg
+- Other pages use /public/sand-dune.jpg
+- Logo + favicon updated
+- Eventbrite + Google Maps integrated (no spinner)
 
-## Quick Start
-```bash
+## Setup
 npm install
+cp .env.example .env  # add keys
 npm run dev
-```
-
-## Build & Deploy (Netlify)
-- Push to GitHub
-- Connect repo in Netlify
-- Env vars:
-  - VITE_GOOGLE_MAPS_KEY=<your key>
-  - VITE_EVENTBRITE_TOKEN=<your token>
-- Build: `npm run build`
-- Publish: `dist`
-
-## Environment
-Copy `.env.example` to `.env` and add your keys.
