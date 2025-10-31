@@ -1,4 +1,18 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ✨ Virginia Beach Concierge v2.3 – Animated Golden-Beige Background */
+@keyframes sandDrift {
+  0%   { background-position: 0 0;     filter: brightness(1); }
+  50%  { background-position: 200px 0; filter: brightness(1.08); }
+  100% { background-position: 0 0;     filter: brightness(1); }
+}
+
+.bg-animated-sand {
+  animation: sandDrift 30s linear infinite;
+  background-image: url('/khaki-texture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
